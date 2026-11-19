@@ -1,0 +1,40 @@
+{
+ "commit": {
+  "author": "X870-ths30648",
+  "commit_id": "8a9e91eb3391d716ef9de523ab870c1b86c9aefe",
+  "created": 1795099561.7344985,
+  "file_type": "mayaAscii",
+  "head_op_id": 88,
+  "manifest": "98fd2cf8947a012e7c80b4b2efdbdde6b9524560fdf9690a3ebb87ec832865d3",
+  "message": "[fix]perspカメラのみ変更",
+  "metadata": {
+   "api_version": 20260302,
+   "maya_version": "2026",
+   "node_count": 19,
+   "os": "win64",
+   "plugins": [
+    "GPUBuiltInDeformer",
+    "cacheEvaluator",
+    "deformerEvaluator",
+    "modelingToolkit",
+    "motionMaker",
+    "renderSetup"
+   ],
+   "references": [],
+   "storage": {
+    "chunks": 2,
+    "new_bytes": 54851,
+    "new_chunks": 2,
+    "size": 54851
+   }
+  },
+  "parents": [
+   "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569"
+  ],
+  "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+  "snapshot": "db9e426f6f566256845ef6fd54c019c02a1cf8db37bf11f7ece9cfa083c492ff",
+  "snapshot_recipe": "34d7c6476a0f7d2ccea0788c26f74eb9577b923ddb1f41a7da3a1e7a3a89d912"
+ },
+ "operations": [],
+ "targets": []
+}

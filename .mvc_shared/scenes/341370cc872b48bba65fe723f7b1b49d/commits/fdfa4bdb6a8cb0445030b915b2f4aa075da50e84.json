@@ -1,0 +1,168 @@
+{
+ "commit": {
+  "author": "X870-ths30648",
+  "commit_id": "fdfa4bdb6a8cb0445030b915b2f4aa075da50e84",
+  "created": 1795097695.9089255,
+  "file_type": "mayaAscii",
+  "head_op_id": 78,
+  "manifest": "5bd8c34c4a0f41fbd9eb8225d0dcfc2e16f8ad847b304fb6d7b1bd72cf4b06a0",
+  "message": "[fix]細部を修正",
+  "metadata": {
+   "api_version": 20260302,
+   "maya_version": "2026",
+   "node_count": 21,
+   "os": "win64",
+   "plugins": [
+    "GPUBuiltInDeformer",
+    "cacheEvaluator",
+    "deformerEvaluator",
+    "modelingToolkit",
+    "motionMaker",
+    "renderSetup"
+   ],
+   "references": [],
+   "storage": {
+    "chunks": 2,
+    "new_bytes": 55881,
+    "new_chunks": 2,
+    "size": 55881
+   }
+  },
+  "parents": [
+   "86b944478a57109f782129835a8326dce0204192"
+  ],
+  "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+  "snapshot": "7b21d694753c64b65732029405162193a39bf1d8ad0d1506ece3243332998f54",
+  "snapshot_recipe": "2dd38ceb428f35aebf092923f968d26e61af895c6caf05cca8e9a4f0ba3cece5"
+ },
+ "operations": [
+  {
+   "base_commit": "86b944478a57109f782129835a8326dce0204192",
+   "commit_id": "fdfa4bdb6a8cb0445030b915b2f4aa075da50e84",
+   "ended": 1795097633.188183,
+   "kind": "create",
+   "label": "BevelPolygon",
+   "op_id": 73,
+   "payload": {
+    "created": [
+     "44B643D6-48C7-667D-C1F4-C5906F8C6ED5"
+    ],
+    "created_sids": [
+     "93e53b0ce664426996127c4a502581a9"
+    ],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "b5ac309968be4cff941f5bd72496cc66",
+   "started": 1795097633.1094441,
+   "status": "active"
+  },
+  {
+   "base_commit": "86b944478a57109f782129835a8326dce0204192",
+   "commit_id": "fdfa4bdb6a8cb0445030b915b2f4aa075da50e84",
+   "ended": 1795097643.945784,
+   "kind": "create",
+   "label": "performPolyExtrude 0",
+   "op_id": 74,
+   "payload": {
+    "created": [
+     "26548A14-4FDD-D5DD-E971-02AE4F3E6B4C"
+    ],
+    "created_sids": [
+     "c1731a6588724a2293d60467a28d4f3e"
+    ],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "b5ac309968be4cff941f5bd72496cc66",
+   "started": 1795097643.9357643,
+   "status": "active"
+  }
+ ],
+ "targets": [
+  {
+   "created": 1795096083.9212086,
+   "detail": {
+    "connections": 2
+   },
+   "last_name": "polyCube1",
+   "lifecycle": "alive",
+   "maya_uuid": "74B8013C-4C58-8504-8206-3EA4A495A076",
+   "node_type": "polyCube",
+   "op_id": 73,
+   "stable_id": "534cfb141e454106889f3e52ee07192f"
+  },
+  {
+   "created": 1795096083.9212086,
+   "detail": {
+    "attrs": [
+     "uvSet[0].uvSetName",
+     "uvSet[0].uvSetPoints"
+    ],
+    "connections": 3
+   },
+   "last_name": "|pCube1|pCubeShape1",
+   "lifecycle": "alive",
+   "maya_uuid": "F849F933-4D7F-1B16-345F-859C3F05185F",
+   "node_type": "mesh",
+   "op_id": 73,
+   "stable_id": "8544d97d50ee4cafb9831fca7dc0bb2b"
+  },
+  {
+   "created": 1795097633.1891828,
+   "detail": {
+    "connections": 3,
+    "renamed_from": "polyBevel1"
+   },
+   "last_name": "polyBevel1",
+   "lifecycle": "alive",
+   "maya_uuid": "44B643D6-48C7-667D-C1F4-C5906F8C6ED5",
+   "node_type": "polyBevel3",
+   "op_id": 73,
+   "stable_id": "93e53b0ce664426996127c4a502581a9"
+  },
+  {
+   "created": 1795096132.3253808,
+   "detail": {
+    "attrs": [
+     "uvSet[0].uvSetName",
+     "uvSet[0].uvSetPoints"
+    ],
+    "connections": 3
+   },
+   "last_name": "|pCone1|pConeShape1",
+   "lifecycle": "alive",
+   "maya_uuid": "0A856F9B-44E5-0A9A-78B2-86B72FDA7A2B",
+   "node_type": "mesh",
+   "op_id": 74,
+   "stable_id": "5a14b3b314d54f77a6eb187e782d0bab"
+  },
+  {
+   "created": 1795097643.945784,
+   "detail": {
+    "connections": 3,
+    "renamed_from": "polyExtrudeVertex1"
+   },
+   "last_name": "polyExtrudeVertex1",
+   "lifecycle": "alive",
+   "maya_uuid": "26548A14-4FDD-D5DD-E971-02AE4F3E6B4C",
+   "node_type": "polyExtrudeVertex",
+   "op_id": 74,
+   "stable_id": "c1731a6588724a2293d60467a28d4f3e"
+  },
+  {
+   "created": 1795096132.3253808,
+   "detail": {
+    "connections": 2
+   },
+   "last_name": "polyCone1",
+   "lifecycle": "alive",
+   "maya_uuid": "9C377F41-4D31-18BF-7E8E-03A2612C9725",
+   "node_type": "polyCone",
+   "op_id": 74,
+   "stable_id": "d3c9f18571974decaa8165c7011d11d3"
+  }
+ ]
+}
