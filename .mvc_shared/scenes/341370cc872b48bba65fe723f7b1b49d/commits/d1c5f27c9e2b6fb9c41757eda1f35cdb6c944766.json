@@ -1,0 +1,2163 @@
+{
+ "commit": {
+  "author": "X870-ths30648",
+  "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+  "created": 1795096414.9248402,
+  "file_type": "mayaAscii",
+  "head_op_id": 48,
+  "manifest": "bcb73cc1cdc7797ba2e66b88d9fb8412a182551c3d112aa0209fff42c05b7d5c",
+  "message": "[fix]CubeとCornを修正",
+  "metadata": {
+   "api_version": 20260302,
+   "maya_version": "2026",
+   "node_count": 29,
+   "os": "win64",
+   "plugins": [
+    "GPUBuiltInDeformer",
+    "OneClick",
+    "cacheEvaluator",
+    "deformerEvaluator",
+    "modelingToolkit",
+    "motionMaker",
+    "renderSetup"
+   ],
+   "references": [],
+   "storage": {
+    "chunks": 2,
+    "new_bytes": 57812,
+    "new_chunks": 2,
+    "size": 57812
+   }
+  },
+  "parents": [
+   "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569"
+  ],
+  "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+  "snapshot": "c35d7e7c93e8233d997c51939271ea06706db4a131be99a1f49d4dcf25de5ef3",
+  "snapshot_recipe": "3dedbf3006aa2d7e68f9cf29ba2af5f6a6f2b04df6abad15e65b2e407bfba141"
+ },
+ "operations": [
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096240.0279596,
+   "kind": "rename",
+   "label": "select -r pCone1 ",
+   "op_id": 24,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096240.0269592,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096244.7021775,
+   "kind": "rename",
+   "label": "select -r pCube1 ",
+   "op_id": 25,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096244.7021775,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096248.0273347,
+   "kind": "rename",
+   "label": "select -r pCone1 ",
+   "op_id": 26,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096248.0253353,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096261.5107303,
+   "kind": "rename",
+   "label": "select -r pCone1 ",
+   "op_id": 27,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096261.5077271,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096267.7370985,
+   "kind": "create",
+   "label": "select -r pCone1 ",
+   "op_id": 28,
+   "payload": {
+    "created": [
+     "5A5DCF00-4686-3F5C-F45C-3BA332A28007",
+     "50DB24EF-4925-842B-92DF-5D88339B618B",
+     "35790DF2-4329-2764-58E8-FE9656E798C3",
+     "E2A6EA2D-4BCF-CFB3-D755-F4BCB345839A"
+    ],
+    "created_sids": [
+     "4a7691a0a3b34e878cc45b01987bd6c6",
+     "587a3d11b2824ed6ab45914ef71583fa",
+     "7475891e2eff4a91b174b6eaadecb784",
+     "bf799bd495c64e25908def3028f66f41"
+    ],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096267.597031,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096290.4674647,
+   "kind": "create",
+   "label": "PolyExtrude",
+   "op_id": 29,
+   "payload": {
+    "created": [
+     "6C23705D-49B3-E5B0-D38E-2394650ED4D5"
+    ],
+    "created_sids": [
+     "f1ccbcc0de86492382e69b8bc5801553"
+    ],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096290.2678983,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096294.0421436,
+   "kind": "rename",
+   "label": "hilite -r pPlane1 ",
+   "op_id": 30,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096294.041144,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096302.49121,
+   "kind": "create",
+   "label": "PolygonHardenEdge",
+   "op_id": 31,
+   "payload": {
+    "created": [
+     "22ABD420-4257-6C07-9E1A-CFB2F37F1CFE",
+     "F98BEF23-494A-7F62-BB7D-5AA4ED518F70"
+    ],
+    "created_sids": [
+     "d79293c161c84d36b93935a5aceeb4f0",
+     "55436f206a51473fa8d73089e8747744"
+    ],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096302.484205,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096308.370464,
+   "kind": "create",
+   "label": "PolygonHardenEdge",
+   "op_id": 32,
+   "payload": {
+    "created": [
+     "877DE390-415C-3646-F898-2E875ED8AC98"
+    ],
+    "created_sids": [
+     "89311d78cd5641c5ad68aa57752b5d64"
+    ],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096308.3654633,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096320.6052258,
+   "kind": "create",
+   "label": "performPolyExtrude 0",
+   "op_id": 33,
+   "payload": {
+    "created": [
+     "D3A110D4-41B3-2909-6BAB-9C86F7CD01CC"
+    ],
+    "created_sids": [
+     "108b04661dfb462c8e9cceda376d2d17"
+    ],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096320.597219,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096328.5230134,
+   "kind": "rename",
+   "label": "maintainActiveChangeSelectMode pCone1 1;",
+   "op_id": 34,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096328.5150073,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096375.0494685,
+   "kind": "create",
+   "label": "BevelPolygon",
+   "op_id": 47,
+   "payload": {
+    "created": [
+     "3E963ADD-4EFE-E523-62E5-2C962C8AF2F2"
+    ],
+    "created_sids": [
+     "6d4837a5f36244ee887a405ac2dfbd28"
+    ],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096375.007876,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "d1c5f27c9e2b6fb9c41757eda1f35cdb6c944766",
+   "ended": 1795096380.4945316,
+   "kind": "rename",
+   "label": "maintainActiveChangeSelectMode pCube1 1;",
+   "op_id": 48,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "14145b826c634c01baaeae5fabbe43cb",
+   "started": 1795096380.4885309,
+   "status": "active"
+  }
+ ],
+ "targets": [
+  {
+   "created": 1795096240.0279596,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": "|Manipulator2",
+   "lifecycle": "alive",
+   "maya_uuid": "0952422C-4030-56A4-9C41-719C82B5F229",
+   "node_type": "polyCaddyManip",
+   "op_id": 24,
+   "stable_id": "2af4dc85938243159a1c7e1a4a04c42f"
+  },
+  {
+   "created": 1795096244.7031772,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": "|Manipulator2",
+   "lifecycle": "alive",
+   "maya_uuid": "8A089CF3-4083-475E-103C-9FB15C725BE7",
+   "node_type": "polyCaddyManip",
+   "op_id": 25,
+   "stable_id": "a93b346abe38424fa19962d27001d6c5"
+  },
+  {
+   "created": 1795096248.0273347,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": "|Manipulator2",
+   "lifecycle": "alive",
+   "maya_uuid": "38A2068F-48BC-0804-6B07-578FCAB1A930",
+   "node_type": "polyCaddyManip",
+   "op_id": 26,
+   "stable_id": "08f88e1a851842af9bc0611cb407433d"
+  },
+  {
+   "created": 1795096261.5117307,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": "|Manipulator2",
+   "lifecycle": "alive",
+   "maya_uuid": "E8943892-497F-588B-5A28-CF85EA0C96B3",
+   "node_type": "nexManip",
+   "op_id": 27,
+   "stable_id": "7a1db6632c4f4b0dacaa82e6888b4edf"
+  },
+  {
+   "created": 1795096267.7370985,
+   "detail": {
+    "connections": 1
+   },
+   "last_name": "ikSCsolver",
+   "lifecycle": "alive",
+   "maya_uuid": "5A5DCF00-4686-3F5C-F45C-3BA332A28007",
+   "node_type": "ikSCsolver",
+   "op_id": 28,
+   "stable_id": "4a7691a0a3b34e878cc45b01987bd6c6"
+  },
+  {
+   "created": 1795096267.7370985,
+   "detail": {
+    "connections": 1
+   },
+   "last_name": "ikRPsolver",
+   "lifecycle": "alive",
+   "maya_uuid": "50DB24EF-4925-842B-92DF-5D88339B618B",
+   "node_type": "ikRPsolver",
+   "op_id": 28,
+   "stable_id": "587a3d11b2824ed6ab45914ef71583fa"
+  },
+  {
+   "created": 1795096267.7370985,
+   "detail": {
+    "connections": 1
+   },
+   "last_name": "ikSplineSolver",
+   "lifecycle": "alive",
+   "maya_uuid": "35790DF2-4329-2764-58E8-FE9656E798C3",
+   "node_type": "ikSplineSolver",
+   "op_id": 28,
+   "stable_id": "7475891e2eff4a91b174b6eaadecb784"
+  },
+  {
+   "created": 1795096267.7370985,
+   "detail": {
+    "connections": 1
+   },
+   "last_name": "hikSolver",
+   "lifecycle": "alive",
+   "maya_uuid": "E2A6EA2D-4BCF-CFB3-D755-F4BCB345839A",
+   "node_type": "hikSolver",
+   "op_id": 28,
+   "stable_id": "bf799bd495c64e25908def3028f66f41"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator5"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator4|Manipulator5",
+   "lifecycle": "alive",
+   "maya_uuid": "9F2A593E-4E8A-D5F8-2A0A-C2840ACB6D54",
+   "node_type": "freePointManip",
+   "op_id": 29,
+   "stable_id": "10e63d650293428c938edb282061aa8e"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator11"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11",
+   "lifecycle": "alive",
+   "maya_uuid": "9D9444CE-48B1-7232-1388-05AE1B09E633",
+   "node_type": "trsManip",
+   "op_id": 29,
+   "stable_id": "166b3155c65f47e99e9277ef75e9020e"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator15"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator15",
+   "lifecycle": "alive",
+   "maya_uuid": "E9A66ACE-400E-A162-6DFD-8A8D27BC43B2",
+   "node_type": "scaleManip",
+   "op_id": 29,
+   "stable_id": "1989baae8c0744a1abf773c6e390c7f2"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator17"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator17",
+   "lifecycle": "alive",
+   "maya_uuid": "9BB1BFEE-4659-3136-B5D8-EA8A10C56EBC",
+   "node_type": "translateManip",
+   "op_id": 29,
+   "stable_id": "339c02aa8929483aa7f3418c837464ce"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator9"
+   },
+   "last_name": "|Manipulator2|Manipulator9",
+   "lifecycle": "alive",
+   "maya_uuid": "86FBC172-44DB-1D9C-B4BB-0388CCC79228",
+   "node_type": "indexManip",
+   "op_id": 29,
+   "stable_id": "39fe9049aa1d4d57b3c7b82422483fa9"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator13"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator12|Manipulator13",
+   "lifecycle": "alive",
+   "maya_uuid": "73E4C1FC-4240-5F44-927B-DA90E5D7D6B2",
+   "node_type": "freePointManip",
+   "op_id": 29,
+   "stable_id": "4bd6cc3ec91e4d25ad95732ba697af60"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator12"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator12",
+   "lifecycle": "alive",
+   "maya_uuid": "15DF7BD9-4873-CE27-4094-8283D70A501D",
+   "node_type": "translateManip",
+   "op_id": 29,
+   "stable_id": "5a049b5eb691473c907d4eef706ea99f"
+  },
+  {
+   "created": 1795096132.3253808,
+   "detail": {
+    "attrs": [
+     "uvSet[0].uvSetName",
+     "uvSet[0].uvSetPoints"
+    ],
+    "connections": 3
+   },
+   "last_name": "|pCone1|pConeShape1",
+   "lifecycle": "alive",
+   "maya_uuid": "0A856F9B-44E5-0A9A-78B2-86B72FDA7A2B",
+   "node_type": "mesh",
+   "op_id": 29,
+   "stable_id": "5a14b3b314d54f77a6eb187e782d0bab"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator3"
+   },
+   "last_name": "|Manipulator2|Manipulator3",
+   "lifecycle": "alive",
+   "maya_uuid": "CFA41EFD-4183-365C-C458-539DA15A2A37",
+   "node_type": "trsManip",
+   "op_id": 29,
+   "stable_id": "64a293f867ce4acfbb0d833322a38f05"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator10"
+   },
+   "last_name": "|Manipulator2|Manipulator10",
+   "lifecycle": "alive",
+   "maya_uuid": "D57D0CD9-4F8E-5888-EB6B-5991C5E3E831",
+   "node_type": "trsInsertManip",
+   "op_id": 29,
+   "stable_id": "6dd171b502604a298e2bb14f24d32acf"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator14"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator14",
+   "lifecycle": "alive",
+   "maya_uuid": "311FCC07-46B7-7328-FFED-569D52F92D39",
+   "node_type": "rotateManip",
+   "op_id": 29,
+   "stable_id": "98008a1c41c44dae85924076a947470b"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator18"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator17|Manipulator18",
+   "lifecycle": "alive",
+   "maya_uuid": "A3E4825D-4086-8E0A-5BF6-D88ACAA26C86",
+   "node_type": "freePointManip",
+   "op_id": 29,
+   "stable_id": "990edba9ea2b4ec7a268adfa91ad186f"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator19"
+   },
+   "last_name": "|Manipulator2|Manipulator19",
+   "lifecycle": "alive",
+   "maya_uuid": "68A450F6-4E43-9DAF-5AA5-378C598D7F6A",
+   "node_type": "polyCaddyManip",
+   "op_id": 29,
+   "stable_id": "a88ca58f8b304da6b3d18471e7852ef6"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator4"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator4",
+   "lifecycle": "alive",
+   "maya_uuid": "ACC8482F-4523-CE1C-7849-D882CA64AD96",
+   "node_type": "translateManip",
+   "op_id": 29,
+   "stable_id": "affd30b2e8b3482fa233e21eb9a0107f"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator16"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator15|Manipulator16",
+   "lifecycle": "alive",
+   "maya_uuid": "03AC7294-4AB7-0678-6F9B-6CA00D7A1FCC",
+   "node_type": "freePointManip",
+   "op_id": 29,
+   "stable_id": "c2952038e2a143e29142fcb4db219d08"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": "|Manipulator2",
+   "lifecycle": "alive",
+   "maya_uuid": "81851D71-410E-A13A-2991-99B9D2F9D391",
+   "node_type": "polyModifierManipContainer",
+   "op_id": 29,
+   "stable_id": "ce674ce8d0d5493a9c7d5da4f2ba04fe"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator8"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator7|Manipulator8",
+   "lifecycle": "alive",
+   "maya_uuid": "C323CA5F-4AA7-B266-E916-209C0AA157FB",
+   "node_type": "freePointManip",
+   "op_id": 29,
+   "stable_id": "cefec8ed37854141958ba85dc699cd2d"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator6"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator6",
+   "lifecycle": "alive",
+   "maya_uuid": "1AB5A448-4746-99AD-4384-E585899E6858",
+   "node_type": "rotateManip",
+   "op_id": 29,
+   "stable_id": "d381dcde1b8b4513972e94407c5b71f4"
+  },
+  {
+   "created": 1795096132.3253808,
+   "detail": {
+    "connections": 2
+   },
+   "last_name": "polyCone1",
+   "lifecycle": "alive",
+   "maya_uuid": "9C377F41-4D31-18BF-7E8E-03A2612C9725",
+   "node_type": "polyCone",
+   "op_id": 29,
+   "stable_id": "d3c9f18571974decaa8165c7011d11d3"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "renamed_from": "Manipulator7"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator7",
+   "lifecycle": "alive",
+   "maya_uuid": "3B51BADC-4E57-CBE5-E9B8-9298CF0F62FB",
+   "node_type": "scaleManip",
+   "op_id": 29,
+   "stable_id": "ef2376da572546348c46100a52888858"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "connections": 3,
+    "renamed_from": "polyExtrudeFace2"
+   },
+   "last_name": "polyExtrudeFace2",
+   "lifecycle": "alive",
+   "maya_uuid": "6C23705D-49B3-E5B0-D38E-2394650ED4D5",
+   "node_type": "polyExtrudeFace",
+   "op_id": 29,
+   "stable_id": "f1ccbcc0de86492382e69b8bc5801553"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator18"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator17|Manipulator18",
+   "lifecycle": "alive",
+   "maya_uuid": "E5E74D3E-45A7-5B89-32E6-8DBE5C0A665E",
+   "node_type": "freePointManip",
+   "op_id": 30,
+   "stable_id": "011c925c24ee4861b8a4bb7482584b62"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator8"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator7|Manipulator8",
+   "lifecycle": "alive",
+   "maya_uuid": "37129A88-41A7-961F-FDD9-B28B519A33A6",
+   "node_type": "freePointManip",
+   "op_id": 30,
+   "stable_id": "192b49a6da8b4e988ce14c6ff8dee67b"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator9"
+   },
+   "last_name": "|Manipulator2|Manipulator9",
+   "lifecycle": "alive",
+   "maya_uuid": "9F874DF3-48DB-5247-58FB-5F82FE64E323",
+   "node_type": "indexManip",
+   "op_id": 30,
+   "stable_id": "2a4ebd07efaa4491af2b10689d95b12a"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator15"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator15",
+   "lifecycle": "alive",
+   "maya_uuid": "FF730EBE-47E5-9C9E-8A47-4C9C536FC3B4",
+   "node_type": "scaleManip",
+   "op_id": 30,
+   "stable_id": "3537d5d23b5e419186f47cd0531997e6"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator14"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator14",
+   "lifecycle": "alive",
+   "maya_uuid": "998A7357-46BC-07F9-1F24-B4AE6EB1BBB7",
+   "node_type": "rotateManip",
+   "op_id": 30,
+   "stable_id": "466383910c0d479390329f17868a71b2"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator11"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11",
+   "lifecycle": "alive",
+   "maya_uuid": "FD97F8CA-44A1-9240-3F1E-39B174E05436",
+   "node_type": "trsManip",
+   "op_id": 30,
+   "stable_id": "4744f515de60490a9d70e2bec78090da"
+  },
+  {
+   "created": 1795096294.0421436,
+   "detail": {
+    "renamed_from": "Manipulator3"
+   },
+   "last_name": "|Manipulator2|Manipulator3",
+   "lifecycle": "alive",
+   "maya_uuid": "8E41A06B-4E21-EB93-53E3-648B409E94C9",
+   "node_type": "trsManip",
+   "op_id": 30,
+   "stable_id": "5e62159affca48c6899518d25263004f"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator5"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator4|Manipulator5",
+   "lifecycle": "alive",
+   "maya_uuid": "44A96E20-4585-6A24-E1FC-AD9E2D92B568",
+   "node_type": "freePointManip",
+   "op_id": 30,
+   "stable_id": "62779b3b77af4bc692a5b97e39b02134"
+  },
+  {
+   "created": 1795096294.0421436,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": "|Manipulator2",
+   "lifecycle": "alive",
+   "maya_uuid": "27F87622-4B80-9F9E-AE0E-CDA05E1187EB",
+   "node_type": "polyModifierManipContainer",
+   "op_id": 30,
+   "stable_id": "6c8ebdca053a458da91240ef5fee7712"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator19"
+   },
+   "last_name": "|Manipulator2|Manipulator19",
+   "lifecycle": "alive",
+   "maya_uuid": "92E6762B-47D1-A042-EC58-9EA772A9697B",
+   "node_type": "polyCaddyManip",
+   "op_id": 30,
+   "stable_id": "6d1ceec3c1c3425fbc7b568c4390337c"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator12"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator12",
+   "lifecycle": "alive",
+   "maya_uuid": "9B3C8A19-4281-1FD6-E542-B2ACE3549694",
+   "node_type": "translateManip",
+   "op_id": 30,
+   "stable_id": "766503999401414aaaaa268734d7cd3d"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator17"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator17",
+   "lifecycle": "alive",
+   "maya_uuid": "A06E8464-4E57-0C55-4425-18A2F5BD26A5",
+   "node_type": "translateManip",
+   "op_id": 30,
+   "stable_id": "793680e6d64f476cbe221af9e503dae7"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator7"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator7",
+   "lifecycle": "alive",
+   "maya_uuid": "1BAF9D15-459C-6B7A-1221-DDBB697B98D3",
+   "node_type": "scaleManip",
+   "op_id": 30,
+   "stable_id": "7c48df86135442aabc36390cb840d02a"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator16"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator15|Manipulator16",
+   "lifecycle": "alive",
+   "maya_uuid": "8127093A-42F4-9F8E-A8B1-1BBBDAA905D2",
+   "node_type": "freePointManip",
+   "op_id": 30,
+   "stable_id": "83f014bc5381466e9e4f8f4e7e80312d"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator13"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator12|Manipulator13",
+   "lifecycle": "alive",
+   "maya_uuid": "B6C37408-406E-0BF4-89A4-1285AC88F0CE",
+   "node_type": "freePointManip",
+   "op_id": 30,
+   "stable_id": "97bc7b2569704e999b13a710a398df5c"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator4"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator4",
+   "lifecycle": "alive",
+   "maya_uuid": "33E78A7F-4ADA-87FA-0AC7-3DA5C3975895",
+   "node_type": "translateManip",
+   "op_id": 30,
+   "stable_id": "bbe3ea56f5f24f63a7486a8e4a9b4675"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator6"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator6",
+   "lifecycle": "alive",
+   "maya_uuid": "4D91DEDD-4151-F2CE-3151-5DBB6162B6F4",
+   "node_type": "rotateManip",
+   "op_id": 30,
+   "stable_id": "be9dbb713e3340b8a6ec7d390e6e304d"
+  },
+  {
+   "created": 1795096294.043145,
+   "detail": {
+    "renamed_from": "Manipulator10"
+   },
+   "last_name": "|Manipulator2|Manipulator10",
+   "lifecycle": "alive",
+   "maya_uuid": "640867B7-4D9D-65B8-09C5-2083FC67E5ED",
+   "node_type": "trsInsertManip",
+   "op_id": 30,
+   "stable_id": "eb3ff4c57ed44fc78d89692d4e07f0ea"
+  },
+  {
+   "created": 1795096302.49121,
+   "detail": {
+    "connections": 3,
+    "renamed_from": "polySoftEdge2"
+   },
+   "last_name": "polySoftEdge2",
+   "lifecycle": "alive",
+   "maya_uuid": "F98BEF23-494A-7F62-BB7D-5AA4ED518F70",
+   "node_type": "polySoftEdge",
+   "op_id": 31,
+   "stable_id": "55436f206a51473fa8d73089e8747744"
+  },
+  {
+   "created": 1795096141.9564307,
+   "detail": {
+    "attrs": [
+     "uvSet[0].uvSetName",
+     "uvSet[0].uvSetPoints"
+    ],
+    "connections": 3
+   },
+   "last_name": "|pPlane1|pPlaneShape1",
+   "lifecycle": "alive",
+   "maya_uuid": "1AE8E415-4A4C-2D24-8038-18BE4AFC74A4",
+   "node_type": "mesh",
+   "op_id": 31,
+   "stable_id": "599a434119044de19f253f57ffa3508c"
+  },
+  {
+   "created": 1795096132.3253808,
+   "detail": {
+    "attrs": [
+     "uvSet[0].uvSetName",
+     "uvSet[0].uvSetPoints"
+    ],
+    "connections": 3
+   },
+   "last_name": "|pCone1|pConeShape1",
+   "lifecycle": "alive",
+   "maya_uuid": "0A856F9B-44E5-0A9A-78B2-86B72FDA7A2B",
+   "node_type": "mesh",
+   "op_id": 31,
+   "stable_id": "5a14b3b314d54f77a6eb187e782d0bab"
+  },
+  {
+   "created": 1795096148.640651,
+   "detail": {
+    "connections": 2
+   },
+   "last_name": "polyExtrudeFace1",
+   "lifecycle": "alive",
+   "maya_uuid": "83B15012-485A-43B6-D95E-4EB4D64BA0B4",
+   "node_type": "polyExtrudeFace",
+   "op_id": 31,
+   "stable_id": "79fd25364ca24ff89433fddae3267ad7"
+  },
+  {
+   "created": 1795096302.49121,
+   "detail": {
+    "connections": 3,
+    "renamed_from": "polySoftEdge1"
+   },
+   "last_name": "polySoftEdge1",
+   "lifecycle": "alive",
+   "maya_uuid": "22ABD420-4257-6C07-9E1A-CFB2F37F1CFE",
+   "node_type": "polySoftEdge",
+   "op_id": 31,
+   "stable_id": "d79293c161c84d36b93935a5aceeb4f0"
+  },
+  {
+   "created": 1795096290.4674647,
+   "detail": {
+    "connections": 2
+   },
+   "last_name": "polyExtrudeFace2",
+   "lifecycle": "alive",
+   "maya_uuid": "6C23705D-49B3-E5B0-D38E-2394650ED4D5",
+   "node_type": "polyExtrudeFace",
+   "op_id": 31,
+   "stable_id": "f1ccbcc0de86492382e69b8bc5801553"
+  },
+  {
+   "created": 1795096302.49121,
+   "detail": {
+    "connections": 2
+   },
+   "last_name": "polySoftEdge2",
+   "lifecycle": "alive",
+   "maya_uuid": "F98BEF23-494A-7F62-BB7D-5AA4ED518F70",
+   "node_type": "polySoftEdge",
+   "op_id": 32,
+   "stable_id": "55436f206a51473fa8d73089e8747744"
+  },
+  {
+   "created": 1795096132.3253808,
+   "detail": {
+    "attrs": [
+     "uvSet[0].uvSetName",
+     "uvSet[0].uvSetPoints"
+    ],
+    "connections": 3
+   },
+   "last_name": "|pCone1|pConeShape1",
+   "lifecycle": "alive",
+   "maya_uuid": "0A856F9B-44E5-0A9A-78B2-86B72FDA7A2B",
+   "node_type": "mesh",
+   "op_id": 32,
+   "stable_id": "5a14b3b314d54f77a6eb187e782d0bab"
+  },
+  {
+   "created": 1795096308.370464,
+   "detail": {
+    "connections": 3,
+    "renamed_from": "polySoftEdge3"
+   },
+   "last_name": "polySoftEdge3",
+   "lifecycle": "alive",
+   "maya_uuid": "877DE390-415C-3646-F898-2E875ED8AC98",
+   "node_type": "polySoftEdge",
+   "op_id": 32,
+   "stable_id": "89311d78cd5641c5ad68aa57752b5d64"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator18"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator17|Manipulator18",
+   "lifecycle": "alive",
+   "maya_uuid": "92ABBB50-4F48-341C-459F-3FBA23C79EFD",
+   "node_type": "freePointManip",
+   "op_id": 33,
+   "stable_id": "0b06ca2c5695445398fe92a6678fb04d"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator6"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator6",
+   "lifecycle": "alive",
+   "maya_uuid": "B8AA8DCF-4351-0467-DF45-349006700D64",
+   "node_type": "rotateManip",
+   "op_id": 33,
+   "stable_id": "0d5ea945508e4fc69609f6f0da5beb00"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "connections": 3,
+    "renamed_from": "polyExtrudeVertex1"
+   },
+   "last_name": "polyExtrudeVertex1",
+   "lifecycle": "alive",
+   "maya_uuid": "D3A110D4-41B3-2909-6BAB-9C86F7CD01CC",
+   "node_type": "polyExtrudeVertex",
+   "op_id": 33,
+   "stable_id": "108b04661dfb462c8e9cceda376d2d17"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator11"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11",
+   "lifecycle": "alive",
+   "maya_uuid": "3B25A699-4F7E-6426-CCAB-E5BBCB6073FF",
+   "node_type": "trsManip",
+   "op_id": 33,
+   "stable_id": "3dce4e5c02714759849bab29fce984e0"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator5"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator4|Manipulator5",
+   "lifecycle": "alive",
+   "maya_uuid": "CBF9D40C-406B-D195-A9D5-5E9A6CB46879",
+   "node_type": "freePointManip",
+   "op_id": 33,
+   "stable_id": "41283805481b48b9a10bcab571a35769"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator12"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator12",
+   "lifecycle": "alive",
+   "maya_uuid": "DB9D0EBF-459A-5B7B-E556-32AACFAA268F",
+   "node_type": "translateManip",
+   "op_id": 33,
+   "stable_id": "5359caa4d1c44263b6e5963d9e28e01e"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator10"
+   },
+   "last_name": "|Manipulator2|Manipulator10",
+   "lifecycle": "alive",
+   "maya_uuid": "96C64286-456E-E8E4-DE06-2FB5FDC8A045",
+   "node_type": "trsInsertManip",
+   "op_id": 33,
+   "stable_id": "59277aa7172d40bda738da448847a499"
+  },
+  {
+   "created": 1795096132.3253808,
+   "detail": {
+    "attrs": [
+     "uvSet[0].uvSetName",
+     "uvSet[0].uvSetPoints"
+    ],
+    "connections": 3
+   },
+   "last_name": "|pCone1|pConeShape1",
+   "lifecycle": "alive",
+   "maya_uuid": "0A856F9B-44E5-0A9A-78B2-86B72FDA7A2B",
+   "node_type": "mesh",
+   "op_id": 33,
+   "stable_id": "5a14b3b314d54f77a6eb187e782d0bab"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator17"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator17",
+   "lifecycle": "alive",
+   "maya_uuid": "2F25D1C2-4863-0081-D861-23A54696F79A",
+   "node_type": "translateManip",
+   "op_id": 33,
+   "stable_id": "5a742fbbdba1424ba99c5d0aa6486e16"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator16"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator15|Manipulator16",
+   "lifecycle": "alive",
+   "maya_uuid": "219EC2C8-4FF1-95C3-E989-CFA809356785",
+   "node_type": "freePointManip",
+   "op_id": 33,
+   "stable_id": "8360e626ed444072a9be856b67824d05"
+  },
+  {
+   "created": 1795096308.370464,
+   "detail": {
+    "connections": 2
+   },
+   "last_name": "polySoftEdge3",
+   "lifecycle": "alive",
+   "maya_uuid": "877DE390-415C-3646-F898-2E875ED8AC98",
+   "node_type": "polySoftEdge",
+   "op_id": 33,
+   "stable_id": "89311d78cd5641c5ad68aa57752b5d64"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator9"
+   },
+   "last_name": "|Manipulator2|Manipulator9",
+   "lifecycle": "alive",
+   "maya_uuid": "74CC0850-4DCA-88BF-10A3-5398764E0022",
+   "node_type": "indexManip",
+   "op_id": 33,
+   "stable_id": "94eef6f54b4041fabfbc3b8bb39e01c7"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator14"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator14",
+   "lifecycle": "alive",
+   "maya_uuid": "EAFA5A56-4B46-B37F-C3DE-6CA82A0EAE92",
+   "node_type": "rotateManip",
+   "op_id": 33,
+   "stable_id": "a4265638db884546a061bc2af7a34bae"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator13"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator12|Manipulator13",
+   "lifecycle": "alive",
+   "maya_uuid": "957024CF-4A62-95C8-C047-969872416CC3",
+   "node_type": "freePointManip",
+   "op_id": 33,
+   "stable_id": "b44e5d0c18484e9facaf4b5324839c97"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator15"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator15",
+   "lifecycle": "alive",
+   "maya_uuid": "4DDAE6CE-4705-EDF4-D6A6-DEA111996508",
+   "node_type": "scaleManip",
+   "op_id": 33,
+   "stable_id": "c523624b94884f079777a1c797db37b5"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator4"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator4",
+   "lifecycle": "alive",
+   "maya_uuid": "1893E2E2-479F-3BB5-F4E3-E5A12CAC42AA",
+   "node_type": "translateManip",
+   "op_id": 33,
+   "stable_id": "c7e8a77e34974ddab723799eb67390b5"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator7"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator7",
+   "lifecycle": "alive",
+   "maya_uuid": "F6D5DA9F-4D93-42F2-8307-A4BADA0BBB9F",
+   "node_type": "scaleManip",
+   "op_id": 33,
+   "stable_id": "d3db01ee576b41ff85bf5f16344ef96c"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator8"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator7|Manipulator8",
+   "lifecycle": "alive",
+   "maya_uuid": "7FC72A5B-47F1-EFAB-1928-B19268295D92",
+   "node_type": "freePointManip",
+   "op_id": 33,
+   "stable_id": "e90dc13d8f924b64858918254df81549"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator3"
+   },
+   "last_name": "|Manipulator2|Manipulator3",
+   "lifecycle": "alive",
+   "maya_uuid": "653189FC-41F8-AB9C-8CB0-4D924C1CBA44",
+   "node_type": "trsManip",
+   "op_id": 33,
+   "stable_id": "ede841b6f93c46dc98c37140a8589c5b"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator19"
+   },
+   "last_name": "|Manipulator2|Manipulator19",
+   "lifecycle": "alive",
+   "maya_uuid": "BB9FCC64-4584-DCA6-911C-758762A0DD1F",
+   "node_type": "polyCaddyManip",
+   "op_id": 33,
+   "stable_id": "f1da74a471454320b99a6a3d4937a2d3"
+  },
+  {
+   "created": 1795096320.6052258,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": "|Manipulator2",
+   "lifecycle": "alive",
+   "maya_uuid": "6D3F69D7-4F6B-3031-737B-25831F6B5921",
+   "node_type": "polyModifierManipContainer",
+   "op_id": 33,
+   "stable_id": "f20b5e877794434aa443e7c57b8cd397"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator19"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "5CD97D7D-4135-F341-6A85-72ACF225EACE",
+   "node_type": "polyCaddyManip",
+   "op_id": 34,
+   "stable_id": "0bee20cfe9894f5283ab3d907bc31b24"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator12"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "75263AD9-418A-AFCF-BF4C-4AAE399332DE",
+   "node_type": "translateManip",
+   "op_id": 34,
+   "stable_id": "0eab6e09d15a4f26b6bbc7b6333b287d"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator16"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "AD819FB6-40B7-10D4-62EF-E4B21BBF8509",
+   "node_type": "freePointManip",
+   "op_id": 34,
+   "stable_id": "254b2aaf38aa4eaa834a89ad462ff55d"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator9"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "B5AD63B5-41FC-AED8-FC0A-45B00E902541",
+   "node_type": "indexManip",
+   "op_id": 34,
+   "stable_id": "28e88ed17e1f472a81bddc1e27996601"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator10"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "E1FE7545-4791-1086-F534-079207F982C3",
+   "node_type": "trsInsertManip",
+   "op_id": 34,
+   "stable_id": "45716443a2414871a064df2d0a666c01"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator6"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "B9D5DFED-4C2A-5E40-31AD-D18824F89121",
+   "node_type": "rotateManip",
+   "op_id": 34,
+   "stable_id": "56f005b44a044c0685ca3293a29710c1"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator13"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "27FC61FD-43C5-2367-A975-4CA2541C004F",
+   "node_type": "freePointManip",
+   "op_id": 34,
+   "stable_id": "5752d696516c4243a9d66654d9574d10"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator17"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "1A4D6F1D-4048-A997-69C2-1F85F225A3EE",
+   "node_type": "translateManip",
+   "op_id": 34,
+   "stable_id": "615ae8cb1f444de2bad3696410ebcffb"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator18"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "5CC77641-4125-51D3-059E-26A860007D18",
+   "node_type": "freePointManip",
+   "op_id": 34,
+   "stable_id": "643a1f29674e43f1a658c9fd1914ee5f"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator15"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "42CA5797-4325-2E65-DC30-5FB9779C3729",
+   "node_type": "scaleManip",
+   "op_id": 34,
+   "stable_id": "6635da81bf254da3bad6e0f8308ea96f"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator4"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "BC14DC79-4202-2B28-C8B6-0FB29368B416",
+   "node_type": "translateManip",
+   "op_id": 34,
+   "stable_id": "68377ec0e27742eeb8a7d2f39a4c6446"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator3"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "1C6A54E1-4796-B925-46FB-CCAA5D906ED8",
+   "node_type": "trsManip",
+   "op_id": 34,
+   "stable_id": "7bd73b8d5e97485f9878a1492ee18dc6"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator14"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "3CE9025E-4D34-49E5-2C16-E89F2A6F3A5A",
+   "node_type": "rotateManip",
+   "op_id": 34,
+   "stable_id": "b47e205d1cb34b408a7f0c0359cdee47"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "541B8EBD-476E-DDA0-AA62-B4B783D9EA41",
+   "node_type": "polyModifierManipContainer",
+   "op_id": 34,
+   "stable_id": "d09c2920b6554769966fc1e51f4c1ff0"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator5"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "9506FBF9-4363-7D85-0958-DEA98F5BAB53",
+   "node_type": "freePointManip",
+   "op_id": 34,
+   "stable_id": "dbe3cb5701b94c268550dcc02d3518d0"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator8"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "34F85B88-43EA-26D8-0AAC-DFB80A8BA4F9",
+   "node_type": "freePointManip",
+   "op_id": 34,
+   "stable_id": "ddb9302cf97e4f949f2ca53d7777fdbe"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator11"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "D3A81C33-4533-FD7F-1B6E-09B15175889B",
+   "node_type": "trsManip",
+   "op_id": 34,
+   "stable_id": "e33a04368dd144479fa221e0acfe3bc2"
+  },
+  {
+   "created": 1795096328.5230134,
+   "detail": {
+    "renamed_from": "Manipulator7"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "4ADEE7A0-4E13-8DFD-5D37-95B573E1A029",
+   "node_type": "scaleManip",
+   "op_id": 34,
+   "stable_id": "ff01125ad42d4c358a2e43b88282431f"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator4"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator4",
+   "lifecycle": "alive",
+   "maya_uuid": "903BC65A-472F-BC85-0D4B-ADA4F76E57B1",
+   "node_type": "translateManip",
+   "op_id": 47,
+   "stable_id": "0db89f2c88ea428399d658296fde9cfc"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator16"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "866EA30B-472C-04E9-F1E5-DFBBD01401D0",
+   "node_type": "freePointManip",
+   "op_id": 47,
+   "stable_id": "18feedab8074415c87e4fb9db00b12b6"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator18"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "C9792CB0-4DFA-D22E-5D35-2ABDFF053268",
+   "node_type": "freePointManip",
+   "op_id": 47,
+   "stable_id": "2bf1e4129a434ab0ac4da17c08bff092"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator10"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "E7342994-4595-3978-C4C0-26BC6D3240F7",
+   "node_type": "trsInsertManip",
+   "op_id": 47,
+   "stable_id": "3254e831c7bd41efb909df2b52246592"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator12"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator12",
+   "lifecycle": "alive",
+   "maya_uuid": "23BC99ED-4CC1-06D5-AE0D-D487F4FBE2AE",
+   "node_type": "translateManip",
+   "op_id": 47,
+   "stable_id": "3f227d4154fd49dd83a7e7bc3b16030b"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator15"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "365CCE4B-4565-BF0D-5A58-8AA8F7D49E97",
+   "node_type": "scaleManip",
+   "op_id": 47,
+   "stable_id": "4476eb3dcf2a42af886b5c881c3d8ba5"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator11"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11",
+   "lifecycle": "alive",
+   "maya_uuid": "2E294B6F-4ED6-F65E-DB51-D2BFB6F7E9DB",
+   "node_type": "trsManip",
+   "op_id": 47,
+   "stable_id": "471d882c489148739bd44142d1e74405"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator14"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "7BE7E26B-4CE7-C960-1293-DD8493166E6F",
+   "node_type": "rotateManip",
+   "op_id": 47,
+   "stable_id": "4b1739dc5e984868938d84d1d158f5a3"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator19"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "3228B50B-4D03-716C-9A51-30815C7EDBA1",
+   "node_type": "polyCaddyManip",
+   "op_id": 47,
+   "stable_id": "4cf16987db3b455ca2231f7227778f84"
+  },
+  {
+   "created": 1795096083.9212086,
+   "detail": {
+    "connections": 2
+   },
+   "last_name": "polyCube1",
+   "lifecycle": "alive",
+   "maya_uuid": "74B8013C-4C58-8504-8206-3EA4A495A076",
+   "node_type": "polyCube",
+   "op_id": 47,
+   "stable_id": "534cfb141e454106889f3e52ee07192f"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator4"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "CC64A1DA-4B61-11E4-EF6B-1B8A184FA086",
+   "node_type": "translateManip",
+   "op_id": 47,
+   "stable_id": "5460ac68e42e49febe1227df38ecc5a8"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator5"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "9FE6AD10-42F5-4A5D-44EF-469C9C58F1D1",
+   "node_type": "freePointManip",
+   "op_id": 47,
+   "stable_id": "5e4ec4c2c8c045de8b0b95ed6273d986"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator5"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator4|Manipulator5",
+   "lifecycle": "alive",
+   "maya_uuid": "40B8F510-48F1-F733-E141-72B4E429E4F9",
+   "node_type": "freePointManip",
+   "op_id": 47,
+   "stable_id": "60bcad8a5cc84e2f895234134ba8c534"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator11"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "0F545A62-4851-35C5-0CEC-3AB9616EECD8",
+   "node_type": "trsManip",
+   "op_id": 47,
+   "stable_id": "60c930e56280426e889bba0f2b2c978e"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator16"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator15|Manipulator16",
+   "lifecycle": "alive",
+   "maya_uuid": "5CA7882C-4FF8-D12A-0404-67824C8F9845",
+   "node_type": "freePointManip",
+   "op_id": 47,
+   "stable_id": "6a815074f065415bac2261eda37d42d4"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "connections": 3,
+    "renamed_from": "polyBevel1"
+   },
+   "last_name": "polyBevel1",
+   "lifecycle": "alive",
+   "maya_uuid": "3E963ADD-4EFE-E523-62E5-2C962C8AF2F2",
+   "node_type": "polyBevel3",
+   "op_id": 47,
+   "stable_id": "6d4837a5f36244ee887a405ac2dfbd28"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator13"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "80222B91-4282-E6BD-B751-1D9F0782B880",
+   "node_type": "freePointManip",
+   "op_id": 47,
+   "stable_id": "70036a8d9fc74fd3addf2615c8087b68"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator8"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator7|Manipulator8",
+   "lifecycle": "alive",
+   "maya_uuid": "2F054FEB-43EC-2253-2890-EA99E7EB1DD4",
+   "node_type": "freePointManip",
+   "op_id": 47,
+   "stable_id": "74d8e10cfd8444bcade134f1c58df209"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator8"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "FA321DEF-4900-BF26-FCF0-228D1427CB46",
+   "node_type": "freePointManip",
+   "op_id": 47,
+   "stable_id": "767d9d17ee264e3cadb9f69abc576f3a"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator7"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "E51EC98C-45FB-3E7B-72C5-85BA14166667",
+   "node_type": "scaleManip",
+   "op_id": 47,
+   "stable_id": "76c7e61158264f2ba5945ec993c117a4"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator6"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator6",
+   "lifecycle": "alive",
+   "maya_uuid": "E0B3F814-4206-7ECB-A437-1493B10846DC",
+   "node_type": "rotateManip",
+   "op_id": 47,
+   "stable_id": "7f3081fd50ca4c06942ffa06cf336d9c"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator9"
+   },
+   "last_name": "|Manipulator2|Manipulator9",
+   "lifecycle": "alive",
+   "maya_uuid": "5A21468C-43EF-7E2A-ECDE-F483ADAFADAD",
+   "node_type": "indexManip",
+   "op_id": 47,
+   "stable_id": "80279d2117504596992a5d91166125a0"
+  },
+  {
+   "created": 1795096083.9212086,
+   "detail": {
+    "attrs": [
+     "uvSet[0].uvSetName",
+     "uvSet[0].uvSetPoints"
+    ],
+    "connections": 3
+   },
+   "last_name": "|pCube1|pCubeShape1",
+   "lifecycle": "alive",
+   "maya_uuid": "F849F933-4D7F-1B16-345F-859C3F05185F",
+   "node_type": "mesh",
+   "op_id": 47,
+   "stable_id": "8544d97d50ee4cafb9831fca7dc0bb2b"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator3"
+   },
+   "last_name": "|Manipulator2|Manipulator3",
+   "lifecycle": "alive",
+   "maya_uuid": "C33FADE0-4589-030D-70BF-76BD5A5D7826",
+   "node_type": "trsManip",
+   "op_id": 47,
+   "stable_id": "87cd4203e05c40268e41eeaf6e794c25"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator18"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator17|Manipulator18",
+   "lifecycle": "alive",
+   "maya_uuid": "3CD36829-48BE-436B-6159-B490D48DEC8B",
+   "node_type": "freePointManip",
+   "op_id": 47,
+   "stable_id": "8de409b651f2487ebc387ef4bcf71dd9"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": "|Manipulator2",
+   "lifecycle": "alive",
+   "maya_uuid": "D51E71EA-4088-25A7-C9EF-8C81F448EEAA",
+   "node_type": "polyModifierManipContainer",
+   "op_id": 47,
+   "stable_id": "91c71f3f97a9466fb5ecedcebc666cd5"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "DA6EED6D-4849-56CF-D093-55A0ADB0C488",
+   "node_type": "polyModifierManipContainer",
+   "op_id": 47,
+   "stable_id": "9349069eebcf43b78f2fe4a94a054de3"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator3"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "08F968D1-45C7-A278-B486-B1850A71C65B",
+   "node_type": "trsManip",
+   "op_id": 47,
+   "stable_id": "990d11dee11d4edeb43152bcf10e703e"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator7"
+   },
+   "last_name": "|Manipulator2|Manipulator3|Manipulator7",
+   "lifecycle": "alive",
+   "maya_uuid": "B3B50E6B-4D00-E41B-7FB8-37B55973A777",
+   "node_type": "scaleManip",
+   "op_id": 47,
+   "stable_id": "9b9f047d523e4544ac9add19fd9a661d"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator9"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "80BE1C56-4510-BA6E-52F7-BBBA73CF2039",
+   "node_type": "indexManip",
+   "op_id": 47,
+   "stable_id": "b140168d60994bd1926cbe589162cde6"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator15"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator15",
+   "lifecycle": "alive",
+   "maya_uuid": "DFB9C6CE-414E-5B74-9EEA-4B93FAEDC847",
+   "node_type": "scaleManip",
+   "op_id": 47,
+   "stable_id": "b203e835286848f5b776a2007e9cdcd4"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator6"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "05F1A9AF-48E7-7AC6-57B8-DF92FF0415CF",
+   "node_type": "rotateManip",
+   "op_id": 47,
+   "stable_id": "c18edb9efc9a48e4a93fbe8a8ace3940"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator17"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "E4614DC1-45D3-B76D-9EAC-079A5F79EFBE",
+   "node_type": "translateManip",
+   "op_id": 47,
+   "stable_id": "db0a9e499b19471e993e60deb034a613"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator13"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator12|Manipulator13",
+   "lifecycle": "alive",
+   "maya_uuid": "D3CEC089-443A-2853-2E1A-DC90E9AB706F",
+   "node_type": "freePointManip",
+   "op_id": 47,
+   "stable_id": "dc2944ff0d18448c9ee62f02ee5e85aa"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator19"
+   },
+   "last_name": "|Manipulator2|Manipulator19",
+   "lifecycle": "alive",
+   "maya_uuid": "EE0F7C80-473C-84DE-21BB-5FA27930F721",
+   "node_type": "polyCaddyManip",
+   "op_id": 47,
+   "stable_id": "dffacc88b3194ae3be6be4783383830d"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator14"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator11|Manipulator14",
+   "lifecycle": "alive",
+   "maya_uuid": "50C2381D-4998-CF14-E757-B9BD52EB9E12",
+   "node_type": "rotateManip",
+   "op_id": 47,
+   "stable_id": "e3a69965f71544d1a4657527490e7ed0"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator12"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "A77F1234-4F4F-F91D-24CF-929505FED235",
+   "node_type": "translateManip",
+   "op_id": 47,
+   "stable_id": "e44412ed1a4a42ec85a12e31b224e9d2"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator17"
+   },
+   "last_name": "|Manipulator2|Manipulator10|Manipulator17",
+   "lifecycle": "alive",
+   "maya_uuid": "C7AFAA09-4253-2BD6-189A-3DB7255340D1",
+   "node_type": "translateManip",
+   "op_id": 47,
+   "stable_id": "fae22ad5406d43b08c6f14e5b7925e73"
+  },
+  {
+   "created": 1795096375.0504658,
+   "detail": {
+    "renamed_from": "Manipulator10"
+   },
+   "last_name": "|Manipulator2|Manipulator10",
+   "lifecycle": "alive",
+   "maya_uuid": "EFD65076-47ED-2152-87F4-B980CF3493E2",
+   "node_type": "trsInsertManip",
+   "op_id": 47,
+   "stable_id": "fde3548532e94668a22c18686e7bd9a8"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator11"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "A9F2D953-445A-9625-E499-BCBCA9B5A975",
+   "node_type": "trsManip",
+   "op_id": 48,
+   "stable_id": "23e0e9beb7cb4fe7a36a7e77e9614948"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator6"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "732CE4DE-4AB8-7DA5-4D67-239F077DBD17",
+   "node_type": "rotateManip",
+   "op_id": 48,
+   "stable_id": "26cd211f706d456084afa70c1b29123d"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator16"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "6DC08D16-430E-3092-5474-D6985C2629E5",
+   "node_type": "freePointManip",
+   "op_id": 48,
+   "stable_id": "36c74d3063164bf583a62b393caefc02"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator5"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "2AFA716F-4060-A348-0134-EF952CC0E9A4",
+   "node_type": "freePointManip",
+   "op_id": 48,
+   "stable_id": "47e6d6e3336c4e0cb58828ddb23d1360"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator13"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "EA81CF59-4F6E-E3C8-AA33-98BB3946DC45",
+   "node_type": "freePointManip",
+   "op_id": 48,
+   "stable_id": "487d06fdedd64fb0920cc19c086e362a"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator4"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "8C05ED9B-467A-2550-55C3-FEAC1585D1A4",
+   "node_type": "translateManip",
+   "op_id": 48,
+   "stable_id": "5e03d51d0bda44cfbcb022cc5fa365c9"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator7"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "B86FE024-4906-05DD-ED25-2AABC09F1C9D",
+   "node_type": "scaleManip",
+   "op_id": 48,
+   "stable_id": "7cd7eba62c6b43faae732c0cee3cd121"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator3"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "F819F05B-4DA7-C794-E49E-B3989B4C8EE2",
+   "node_type": "trsManip",
+   "op_id": 48,
+   "stable_id": "8af017b7a54045f993884792bd841112"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator15"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "8ECF7F15-487A-105B-85E3-638D443B2BCD",
+   "node_type": "scaleManip",
+   "op_id": 48,
+   "stable_id": "8eb16dd5211c4f30b513be9f198b049b"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator14"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "039EFA22-4766-A083-BC32-E383DC6B94D1",
+   "node_type": "rotateManip",
+   "op_id": 48,
+   "stable_id": "9f95f4f5fc1a4851bee279fa690e27f7"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator8"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "C02EA0F9-4A9D-19CF-65D6-B2A55C848083",
+   "node_type": "freePointManip",
+   "op_id": 48,
+   "stable_id": "b3e5b02ac5a442bf92cad4222cbcb27f"
+  },
+  {
+   "created": 1795096380.4945316,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "CB5D8032-490E-5847-5028-F388256A0ACF",
+   "node_type": "polyModifierManipContainer",
+   "op_id": 48,
+   "stable_id": "d0d991e1036949d3b757a17005829960"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator18"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "69F7AF54-479B-B99D-4681-CF956EE12D5A",
+   "node_type": "freePointManip",
+   "op_id": 48,
+   "stable_id": "d7064fa8234044e5a5c6a6be919a0aa3"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator10"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "33E4B0D1-4BAA-5020-2EA7-A0ACF0BBBDA0",
+   "node_type": "trsInsertManip",
+   "op_id": 48,
+   "stable_id": "d7abf79fd9a046e7b63f9d3d617a8803"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator12"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "067651DF-4E0E-E0EB-9C85-C48EDF94628D",
+   "node_type": "translateManip",
+   "op_id": 48,
+   "stable_id": "f0ba0afbb8514619abc765f195c47a31"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator17"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "AB356D67-4ABB-8B28-1013-3EAC1BF6A8B4",
+   "node_type": "translateManip",
+   "op_id": 48,
+   "stable_id": "f30300c6122940d39d41fb7680b4860e"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator19"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "275E4A06-4894-49B5-975C-FEBD97AAE2E9",
+   "node_type": "polyCaddyManip",
+   "op_id": 48,
+   "stable_id": "f687ec605e9443478b4ea317be5bc060"
+  },
+  {
+   "created": 1795096380.495532,
+   "detail": {
+    "renamed_from": "Manipulator9"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "9F8956FA-4F85-E21A-6453-5983DCC5004C",
+   "node_type": "indexManip",
+   "op_id": 48,
+   "stable_id": "fe92ab24662b4ca2a89fd9f0333cccac"
+  }
+ ]
+}

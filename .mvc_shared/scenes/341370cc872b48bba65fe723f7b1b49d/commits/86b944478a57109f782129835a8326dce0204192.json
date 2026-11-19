@@ -1,0 +1,348 @@
+{
+ "commit": {
+  "author": "X870-ths30648",
+  "commit_id": "86b944478a57109f782129835a8326dce0204192",
+  "created": 1795096499.4203112,
+  "file_type": "mayaAscii",
+  "head_op_id": 59,
+  "manifest": "ae7d8e642394df1cde3b82adf7ab6727a08d315154a84e1267f5d0fe4f44f31c",
+  "message": "[fix]CornとCubeのレイアウトを変更。",
+  "metadata": {
+   "api_version": 20260302,
+   "maya_version": "2026",
+   "node_count": 19,
+   "os": "win64",
+   "plugins": [
+    "GPUBuiltInDeformer",
+    "OneClick",
+    "cacheEvaluator",
+    "deformerEvaluator",
+    "modelingToolkit",
+    "motionMaker",
+    "renderSetup"
+   ],
+   "references": [],
+   "storage": {
+    "chunks": 2,
+    "new_bytes": 19185,
+    "new_chunks": 1,
+    "size": 54944
+   }
+  },
+  "parents": [
+   "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569"
+  ],
+  "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+  "snapshot": "bb3960f68d9dfe01ba6420cda70eea83a8c7b6cf95346e348071fa090e8c50c4",
+  "snapshot_recipe": "cff1062eb4e137a16b213b2b533a4576e5e3168390f2190e1f8ba19b37d74634"
+ },
+ "operations": [
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "86b944478a57109f782129835a8326dce0204192",
+   "ended": 1795096467.2437174,
+   "kind": "rename",
+   "label": "select -r pCone1 ",
+   "op_id": 53,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "e94f826e76204035ada72a7075138aac",
+   "started": 1795096467.2427185,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "86b944478a57109f782129835a8326dce0204192",
+   "ended": 1795096468.5499196,
+   "kind": "change",
+   "label": "move -r -os -wd -1.880583 0 1.222411 ",
+   "op_id": 54,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "e94f826e76204035ada72a7075138aac",
+   "started": 1795096468.1649456,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "86b944478a57109f782129835a8326dce0204192",
+   "ended": 1795096469.6316776,
+   "kind": "rename",
+   "label": "select -r pCube1 ",
+   "op_id": 55,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "e94f826e76204035ada72a7075138aac",
+   "started": 1795096469.6306784,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "86b944478a57109f782129835a8326dce0204192",
+   "ended": 1795096473.0471377,
+   "kind": "change",
+   "label": "move -r -os -wd 0 0.526005 0 ",
+   "op_id": 56,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "e94f826e76204035ada72a7075138aac",
+   "started": 1795096470.280254,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "86b944478a57109f782129835a8326dce0204192",
+   "ended": 1795096473.6345663,
+   "kind": "rename",
+   "label": "select -r pCone1 ",
+   "op_id": 57,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "e94f826e76204035ada72a7075138aac",
+   "started": 1795096473.6325662,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "86b944478a57109f782129835a8326dce0204192",
+   "ended": 1795096476.2361722,
+   "kind": "change",
+   "label": "move -r -os -wd 0 -1.724112 0 ",
+   "op_id": 58,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "e94f826e76204035ada72a7075138aac",
+   "started": 1795096474.3341484,
+   "status": "active"
+  },
+  {
+   "base_commit": "4a4ab7f46fb7f2bdee3942b9d7d8c7b4ad443569",
+   "commit_id": "86b944478a57109f782129835a8326dce0204192",
+   "ended": 1795096477.9509654,
+   "kind": "change",
+   "label": "move -r -os -wd -1.084751 0 0.0184591 ",
+   "op_id": 59,
+   "payload": {
+    "created": [],
+    "created_sids": [],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "e94f826e76204035ada72a7075138aac",
+   "started": 1795096476.941786,
+   "status": "active"
+  }
+ ],
+ "targets": [
+  {
+   "created": 1795096467.2447174,
+   "detail": {
+    "renamed_from": "Manipulator3"
+   },
+   "last_name": "|Manipulator2|Manipulator3",
+   "lifecycle": "alive",
+   "maya_uuid": "F3468F25-4845-8C0E-2083-C6856BC25A4E",
+   "node_type": "freePointManip",
+   "op_id": 53,
+   "stable_id": "21608b616df24ab896e633beca583424"
+  },
+  {
+   "created": 1795096467.2447174,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": "|Manipulator2",
+   "lifecycle": "alive",
+   "maya_uuid": "6FE6CA4B-4474-B461-7097-58AF89C35867",
+   "node_type": "translateManip",
+   "op_id": 53,
+   "stable_id": "ca3b03e81bf048559d8e695540649778"
+  },
+  {
+   "created": 1795096132.3253808,
+   "detail": {
+    "attrs": [
+     "translate",
+     "translateX",
+     "translateZ"
+    ]
+   },
+   "last_name": "|pCone1",
+   "lifecycle": "alive",
+   "maya_uuid": "4D6F388B-413B-E014-B80B-66A97B647199",
+   "node_type": "transform",
+   "op_id": 54,
+   "stable_id": "5cf12f485d354af59a811f551e4cb90c"
+  },
+  {
+   "created": 1795096469.632677,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "593334F5-4C67-8A6F-43EF-05B41AEF69BC",
+   "node_type": "translateManip",
+   "op_id": 55,
+   "stable_id": "3b59673d7f13419f8f35bad61a836d3b"
+  },
+  {
+   "created": 1795096469.632677,
+   "detail": {
+    "renamed_from": "Manipulator3"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "74C4C09C-4CCA-E81E-8495-8C973A17A35A",
+   "node_type": "freePointManip",
+   "op_id": 55,
+   "stable_id": "97a0a4aa864e4179a89467aa747d6174"
+  },
+  {
+   "created": 1795096469.632677,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": "|Manipulator2",
+   "lifecycle": "alive",
+   "maya_uuid": "315FA34D-4D8B-8B7F-3736-B8A30362228F",
+   "node_type": "translateManip",
+   "op_id": 55,
+   "stable_id": "bb24675e40b2496698554844d6feb96a"
+  },
+  {
+   "created": 1795096469.632677,
+   "detail": {
+    "renamed_from": "Manipulator3"
+   },
+   "last_name": "|Manipulator2|Manipulator3",
+   "lifecycle": "alive",
+   "maya_uuid": "F4C97FD1-4ED3-0505-276A-30AD9FEEFE83",
+   "node_type": "freePointManip",
+   "op_id": 55,
+   "stable_id": "ccd6ed344c5d4886a7870cf5429d4229"
+  },
+  {
+   "created": 1795096083.9212086,
+   "detail": {
+    "attrs": [
+     "translateY"
+    ]
+   },
+   "last_name": "|pCube1",
+   "lifecycle": "alive",
+   "maya_uuid": "4954A5BB-4FF7-40D2-FC5E-8B97068DFC6F",
+   "node_type": "transform",
+   "op_id": 56,
+   "stable_id": "4f106058aeb943b48135651d46cc40a7"
+  },
+  {
+   "created": 1795096473.6345663,
+   "detail": {
+    "renamed_from": "Manipulator3"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "3B47B52F-4595-F6ED-B752-2998700EEF64",
+   "node_type": "freePointManip",
+   "op_id": 57,
+   "stable_id": "23c9af2894ce4497a16e334c81fa65ff"
+  },
+  {
+   "created": 1795096473.6345663,
+   "detail": {
+    "renamed_from": "Manipulator3"
+   },
+   "last_name": "|Manipulator2|Manipulator3",
+   "lifecycle": "alive",
+   "maya_uuid": "D9A31D2C-4990-62DD-B49D-BEA8A7424A0B",
+   "node_type": "freePointManip",
+   "op_id": 57,
+   "stable_id": "4278ca7ec388400e8dc5ffff65218509"
+  },
+  {
+   "created": 1795096473.6345663,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": null,
+   "lifecycle": "alive",
+   "maya_uuid": "9F282EEB-4623-D3B7-C3CB-7DA7AC7924C3",
+   "node_type": "translateManip",
+   "op_id": 57,
+   "stable_id": "6cd40a9d5dc0465a93f0b0451f92b737"
+  },
+  {
+   "created": 1795096473.6345663,
+   "detail": {
+    "renamed_from": "Manipulator2"
+   },
+   "last_name": "|Manipulator2",
+   "lifecycle": "alive",
+   "maya_uuid": "F9389811-4D39-4E5B-2902-1999EDA454FE",
+   "node_type": "translateManip",
+   "op_id": 57,
+   "stable_id": "b9e43fe2465448988e3b82e49b0ed4cb"
+  },
+  {
+   "created": 1795096132.3253808,
+   "detail": {
+    "attrs": [
+     "translateY"
+    ]
+   },
+   "last_name": "|pCone1",
+   "lifecycle": "alive",
+   "maya_uuid": "4D6F388B-413B-E014-B80B-66A97B647199",
+   "node_type": "transform",
+   "op_id": 58,
+   "stable_id": "5cf12f485d354af59a811f551e4cb90c"
+  },
+  {
+   "created": 1795096132.3253808,
+   "detail": {
+    "attrs": [
+     "translateX",
+     "translateZ"
+    ]
+   },
+   "last_name": "|pCone1",
+   "lifecycle": "alive",
+   "maya_uuid": "4D6F388B-413B-E014-B80B-66A97B647199",
+   "node_type": "transform",
+   "op_id": 59,
+   "stable_id": "5cf12f485d354af59a811f551e4cb90c"
+  }
+ ]
+}

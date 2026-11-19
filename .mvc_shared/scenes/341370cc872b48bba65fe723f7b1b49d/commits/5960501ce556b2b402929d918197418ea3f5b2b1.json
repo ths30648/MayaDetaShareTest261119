@@ -1,0 +1,112 @@
+{
+ "commit": {
+  "author": "X870-ths30648",
+  "commit_id": "5960501ce556b2b402929d918197418ea3f5b2b1",
+  "created": 1795096102.735897,
+  "file_type": "mayaAscii",
+  "head_op_id": 3,
+  "manifest": "24ac8c74c765c4591729902d4080ab7e5cbd2a1288860204ea3bb72d2a0e5773",
+  "message": "[add]Cubeを作成",
+  "metadata": {
+   "api_version": 20260302,
+   "maya_version": "2026",
+   "node_count": 12,
+   "os": "win64",
+   "plugins": [
+    "GPUBuiltInDeformer",
+    "OneClick",
+    "cacheEvaluator",
+    "deformerEvaluator",
+    "modelingToolkit",
+    "motionMaker",
+    "renderSetup"
+   ],
+   "references": [],
+   "storage": {
+    "chunks": 2,
+    "new_bytes": 52720,
+    "new_chunks": 2,
+    "size": 52720
+   }
+  },
+  "parents": [
+   "b8c5e5fb0c3a56d7d25253332413508e7841bf51"
+  ],
+  "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+  "snapshot": "12bc2e73765ba043ada07f670c8d82479c367840cc99ebdad3715be0a39a73c6",
+  "snapshot_recipe": "b14590ddb6424bdad15c04b0a0cff66b7e54b3222fcd14047dae5ff1d6d221fe"
+ },
+ "operations": [
+  {
+   "base_commit": "b8c5e5fb0c3a56d7d25253332413508e7841bf51",
+   "commit_id": "5960501ce556b2b402929d918197418ea3f5b2b1",
+   "ended": 1795096083.9212086,
+   "kind": "create",
+   "label": "CreatePolygonCube",
+   "op_id": 3,
+   "payload": {
+    "created": [
+     "74B8013C-4C58-8504-8206-3EA4A495A076",
+     "4954A5BB-4FF7-40D2-FC5E-8B97068DFC6F",
+     "F849F933-4D7F-1B16-345F-859C3F05185F"
+    ],
+    "created_sids": [
+     "534cfb141e454106889f3e52ee07192f",
+     "4f106058aeb943b48135651d46cc40a7",
+     "8544d97d50ee4cafb9831fca7dc0bb2b"
+    ],
+    "deleted": [],
+    "deleted_sids": []
+   },
+   "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+   "session_id": "4bb61ed9af29455eb043871c0ccf0e99",
+   "started": 1795096083.9126954,
+   "status": "active"
+  }
+ ],
+ "targets": [
+  {
+   "created": 1795096083.9212086,
+   "detail": {
+    "renamed_from": "pCube1"
+   },
+   "last_name": "|pCube1",
+   "lifecycle": "alive",
+   "maya_uuid": "4954A5BB-4FF7-40D2-FC5E-8B97068DFC6F",
+   "node_type": "transform",
+   "op_id": 3,
+   "stable_id": "4f106058aeb943b48135651d46cc40a7"
+  },
+  {
+   "created": 1795096083.9212086,
+   "detail": {
+    "connections": 1,
+    "renamed_from": "polyCube1"
+   },
+   "last_name": "polyCube1",
+   "lifecycle": "alive",
+   "maya_uuid": "74B8013C-4C58-8504-8206-3EA4A495A076",
+   "node_type": "polyCube",
+   "op_id": 3,
+   "stable_id": "534cfb141e454106889f3e52ee07192f"
+  },
+  {
+   "created": 1795096083.9212086,
+   "detail": {
+    "attrs": [
+     "doubleSided",
+     "tangentSmoothingAngle",
+     "tangentSpace"
+    ],
+    "connections": 2,
+    "renamed_from": "pCubeShape1"
+   },
+   "last_name": "|pCube1|pCubeShape1",
+   "lifecycle": "alive",
+   "maya_uuid": "F849F933-4D7F-1B16-345F-859C3F05185F",
+   "node_type": "mesh",
+   "op_id": 3,
+   "stable_id": "8544d97d50ee4cafb9831fca7dc0bb2b"
+  }
+ ]
+}
