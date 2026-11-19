@@ -1,0 +1,10 @@
+# >>> Maya Version Control（自動生成：この範囲はツールが書き換えます）
+# 自分用の履歴（共有しない）
+.maya_vcs/
+# 書き込み途中の一時ファイル
+*.mvc-part
+.mvc_shared/**/*.part
+# シーンファイル（共有は .mvc_shared で行う。Gitに入れる場合は拡張の設定で変更）
+*.ma
+*.mb
+# <<< Maya Version Control

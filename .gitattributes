@@ -1,0 +1,5 @@
+# >>> Maya Version Control（自動生成：この範囲はツールが書き換えます）
+.mvc_shared/** -text -diff -merge
+*.ma -text -diff -merge
+*.mb -text -diff -merge
+# <<< Maya Version Control
