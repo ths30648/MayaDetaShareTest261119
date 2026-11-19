@@ -1,0 +1,39 @@
+{
+ "commit": {
+  "author": "X870-ths30648",
+  "commit_id": "b8c5e5fb0c3a56d7d25253332413508e7841bf51",
+  "created": 1795096007.7082453,
+  "file_type": "mayaAscii",
+  "head_op_id": 1,
+  "manifest": "dda3d42c974eed6cb63f7b319f2be5cd01c6c1c7e9e8ab1930cedb1dd250448e",
+  "message": "Initial commit",
+  "metadata": {
+   "api_version": 20260302,
+   "maya_version": "2026",
+   "node_count": 9,
+   "os": "win64",
+   "plugins": [
+    "GPUBuiltInDeformer",
+    "OneClick",
+    "cacheEvaluator",
+    "deformerEvaluator",
+    "modelingToolkit",
+    "motionMaker",
+    "renderSetup"
+   ],
+   "references": [],
+   "storage": {
+    "chunks": 2,
+    "new_bytes": 52061,
+    "new_chunks": 2,
+    "size": 52061
+   }
+  },
+  "parents": [],
+  "scene_id": "341370cc872b48bba65fe723f7b1b49d",
+  "snapshot": "10d56ab3b7c8d720e8373fb5c33ea629900cce96d4cfbd3b8a2ba0408969d854",
+  "snapshot_recipe": "0bce331c2a8e794fb3851acfa66fecd2a2ba0cc80ce3248a8f3ecb15cf0155fa"
+ },
+ "operations": [],
+ "targets": []
+}
